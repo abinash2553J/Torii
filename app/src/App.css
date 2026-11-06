@@ -1,0 +1,58 @@
+.page {
+  width: min(100% - 32px, 960px);
+  min-height: 100svh;
+  margin: 0 auto;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 24px 0;
+  color: var(--primary);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.brand-mark {
+  display: grid;
+  width: 32px;
+  height: 32px;
+  place-items: center;
+  border-radius: 10px;
+  background: var(--primary);
+  color: var(--surface);
+}
+
+.empty-state {
+  display: grid;
+  min-height: min(70svh, 560px);
+  align-content: center;
+  justify-items: start;
+  padding: 24px 0 64px;
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  color: var(--primary);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+h1 {
+  max-width: 640px;
+  margin: 0;
+  color: var(--text);
+  font-size: clamp(40px, 8vw, 72px);
+  letter-spacing: -0.055em;
+  line-height: 1;
+}
+
+.description {
+  max-width: 440px;
+  margin: 20px 0 0;
+  color: var(--text-muted);
+  font-size: 16px;
+  line-height: 1.6;
+}
